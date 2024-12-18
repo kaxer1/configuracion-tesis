@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: mcs-asistente
+zima:
+  app:
+    name: Asistente
+    description: Microservicio el manejo de asistentes.
