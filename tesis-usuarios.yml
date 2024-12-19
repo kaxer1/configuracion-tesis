@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: mcs-usuarios
+tesis:
+  app:
+    name: Usuarios
+    description: Microservicio el de usuarios

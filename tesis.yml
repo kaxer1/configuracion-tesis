@@ -1,6 +1,9 @@
 tesis:
   catalog:
     asistente: mcs-asistente
+    chat: mcs-chat
+    usuarios: mcs-usuarios
+    chatbot: nest-service
 spring:
   cloud:
     consul:
