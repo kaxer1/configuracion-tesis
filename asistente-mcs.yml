@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: mcs-asistente
-zima:
+tesis:
   app:
     name: Asistente
     description: Microservicio el manejo de asistentes.
