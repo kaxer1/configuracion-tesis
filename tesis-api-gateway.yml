@@ -1,0 +1,9 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: api-gateway
+tesis:
+  app:
+    name: Api gateway
+    description: Microservicio del api gateway

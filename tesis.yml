@@ -1,0 +1,24 @@
+tesis:
+  catalog:
+    asistente: mcs-asistente
+spring:
+  cloud:
+    consul:
+      enabled: true
+      host: localhost
+      port: 8500
+      discovery:
+        register: true
+        instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+        preferIpAddress: true
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: tesis
+server:
+  port: 8080
+
+logging:
+  level:
+    com.ecwid.consul: DEBUG
+    org.springframework.cloud.consul: DEBUG
