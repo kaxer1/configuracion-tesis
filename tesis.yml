@@ -8,7 +8,8 @@ spring:
   cloud:
     consul:
       enabled: true
-      host: localhost
+      # host: localhost # LOCALHOST
+      host: tesis-config # KUBECTL
       port: 8500
       discovery:
         register: true
