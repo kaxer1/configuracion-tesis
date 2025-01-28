@@ -8,8 +8,8 @@ spring:
   cloud:
     consul:
       enabled: true
-      # host: localhost # LOCALHOST
-      host: prot-consul # KUBECTL
+      host: localhost # LOCALHOST
+      # host: prot-consul # KUBECTL
       port: 8500
       discovery:
         register: true
